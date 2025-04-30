@@ -62,7 +62,41 @@
 
 
 
+// import React, { useState } from 'react';
 
+// function page() {
+//   const [show, setShow] = useState(true);
+
+//   return (
+//     <div>
+//       {show && <h1>Welcome, Piyush!</h1>}
+//       <button onClick={() =>setShow(!show)}>
+//         {show ? 'hide' : 'unhide'}
+//       </button>
+//     </div>
+//   );
+// }
+
+// export default page;
+
+// import React, { useState } from 'react';
+
+// function page() {
+//   const [text, setText] = useState(''); // Step 1: State to hold input value
+
+//   return (
+//     <div>
+//       <input 
+//         type="text" 
+//         placeholder="Type something..." 
+//         onChange={(e) =>setText(e.target.value)}
+//       />
+//       <p>You typed: {text}</p>
+//     </div>
+//   );
+// }
+
+// export default page;
 
 
 
